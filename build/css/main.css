@@ -1,0 +1,50 @@
+body {
+	background-color: #f6f6f6;
+}
+
+img {
+	padding-bottom: 1em;
+	max-height: 100px;
+}
+
+.big {
+	font-size: larger;
+}
+
+.purple {
+	color: rebeccapurple;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.ain {
+	color: aqua;
+	font-style: italic;
+}
+
+.out {
+	color: darkcyan;
+	font-weight: 700;
+}
+
+.warmup svg {
+  border: 1px dotted gray;
+}
+
+.warmup rect {
+  fill: blue;
+}
+
+.warmup circle {
+  fill: rebeccapurple;
+}
+
+.warmup button {
+  font-size: larger;
+}

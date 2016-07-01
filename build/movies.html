@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Movie Demo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <h1>Movies</h1>
+      <p>Movies are entertaining</p>
+    </header>
+
+    <form role="form" method="GET" action="movies.html">
+      <label for="movieTitle">Movie Title:</label>
+      <input type="text" name="s" id="movieTitle">
+
+      <button type="submit">Search!</button>
+    </form>
+
+    <section id="movies">
+      <!-- data can be displayed here -->
+    </section>
+  </main>
+
+  <!-- load jQuery -->
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!-- load script files -->
+  <script src="js/movies.js"></script>
+</body>
+</html>

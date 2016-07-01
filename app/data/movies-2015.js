@@ -1,4 +1,4 @@
-movies = [
+[
   {
     "id": 1,
     "title": "Star Wars Ep. VII: The Force Awakens",
